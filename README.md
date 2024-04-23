@@ -29,4 +29,5 @@ However, subcharts by nature are nested filesystems, which means they get render
 I have an integration test on a fork of helm located here:
 https://github.com/jessesimpson36/helm/commit/69866638a5be6b4efc4ab070dc13611421cd74bf
 
+Up-to-date branch: https://github.com/helm/helm/compare/main...jessesimpson36:helm:render_test
 
