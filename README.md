@@ -10,6 +10,7 @@ This repo is an investigation into how helm renders templates with subcharts in 
 
 1. Makefile & switch.sh -  These files will switch between two modes where z_compatibility_helpers.tpl is deeply nested into a folder structure and where it is not.
 2. Generic helm chart files (`Chart.yaml`, `values.yaml`, ...) - The helm chart is a simple subchart structure where only one file in the nested subchart gets rendered.
+3. test.sh - This file will test a grid between whether z_compatibility_helpers.tpl starts with underscore, nested vs unnested, and running helm template vs my integration test in upstream helm.
 
 
 ## Make commands:
