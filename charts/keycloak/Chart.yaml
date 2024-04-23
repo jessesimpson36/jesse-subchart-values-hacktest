@@ -1,0 +1,18 @@
+apiVersion: v2
+name: keycloak
+version: 19.4.1
+appVersion: 19.4.1
+description: |
+  Keycloak provides auth services. This is a dummy
+type: application
+icon: https://helm.camunda.io/imgs/camunda.svg
+home: https://docs.camunda.io/docs/self-managed/overview/
+sources:
+  - https://github.com/jessesimpson36/jesse-subchart-values-hacktest/charts/keycloak
+keywords:
+  - helm
+  - test
+dependencies: []
+maintainers:
+  - name: Jesse
+    email: IllContactYou@gmail.com

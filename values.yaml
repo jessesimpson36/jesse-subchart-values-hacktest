@@ -1,0 +1,9 @@
+
+identity:
+  keycloak:
+    ingress:
+      enabled: false
+
+keycloak:
+  ingress:
+    enabled: false

@@ -1,0 +1,6 @@
+dependencies:
+- name: keycloak
+  repository: file://charts/keycloak
+  version: 19.4.1
+digest: sha256:fc5a5659698ebc52479a99f3dca960e9d6df172b07a8bb56c536557f4fa1e35a
+generated: "2024-04-23T13:47:46.008602232-04:00"

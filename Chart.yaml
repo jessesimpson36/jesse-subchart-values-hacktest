@@ -1,0 +1,23 @@
+apiVersion: v2
+name: jesse-subchart-values-hacktest
+version: 0.0.1
+appVersion: 0.0.1
+description: |
+  Jesse is going crazy, and this will help determine why
+type: application
+icon: https://helm.camunda.io/imgs/camunda.svg
+home: https://docs.camunda.io/docs/self-managed/overview/
+sources:
+  - https://github.com/jessesimpson36/jesse-subchart-values-hacktest
+keywords:
+  - helm
+  - test
+dependencies:
+  # Identity Dependencies.
+  - name: keycloak
+    alias: keycloak
+    repository: "file://charts/keycloak"
+    version: 19.4.1
+maintainers:
+  - name: Jesse
+    email: IllContactYou@gmail.com
