@@ -3,7 +3,4 @@ identity:
     ingress:
       enabled: true
 
-keycloak:
-  ingress:
-    enabled: false
 
