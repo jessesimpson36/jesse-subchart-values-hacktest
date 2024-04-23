@@ -14,10 +14,6 @@ This repo is an investigation into how helm renders templates with subcharts in 
 4. test-output - output of test.sh
 
 
-## Make commands:
-
-`make` - Will switch the `z_compatibility_helpers.tpl` to  a nested folder structure (or the other way around)
-
 ## What did I find?
 
 As it turns out, there is a sort order to how the templates get rendered. This ordering is the most deeply nested files first and then traverses outward from there.
