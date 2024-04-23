@@ -1,0 +1,22 @@
+===== TEST  running helm template ======
+Unnested without Underscore
+Failed
+
+Unnested, with Underscore
+Failed
+Nested, without Underscore
+Success
+
+Nested, with Underscore
+Failed
+===== TEST  running helm integration test ======
+Unnested without Underscore
+Failed
+
+Unnested, with Underscore
+Failed
+Nested, without Underscore
+Success
+
+Nested, with Underscore
+Failed

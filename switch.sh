@@ -10,7 +10,7 @@ FILENAME=z_compatibility_helpers.tpl
 
 if [ $SHOULD_NEST -eq 1 ]; then
 	if [ -d templates/1 ]; then
-		echo pass
+		echo
 	else
 		mkdir -p templates/1/2/3/4/5/6/7/8
 		mv templates/*$FILENAME templates/1/2/3/4/5/6/7/8/
@@ -23,7 +23,7 @@ if [ $SHOULD_NEST -eq 0 ]; then
 		mv templates/1/2/3/4/5/6/7/8/* templates/
 		rm -r templates/1
 	else
-		echo pass
+		echo
 	fi
 fi
 
@@ -32,7 +32,7 @@ BASENAME=$(basename $FOUND)
 DIRNAME=$(dirname $FOUND)
 if [ $SHOULD_UNDERSCORE -eq 1 ]; then
 	if [[ "$BASENAME" == "_$FILENAME" ]]; then
-		echo "pass"
+		echo
 	else
 		mv $FOUND $DIRNAME/_$FILENAME
 	fi
@@ -42,7 +42,7 @@ if [ $SHOULD_UNDERSCORE -eq 0 ]; then
 	if [[ "$BASENAME" == "_$FILENAME" ]]; then
 		mv $FOUND $DIRNAME/$FILENAME
 	else
-		echo "pass"
+		echo
 	fi
 fi
 
