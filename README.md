@@ -26,5 +26,9 @@ If a template `z_compatibility_helpers.tpl` adds a key into `.Values`, and anoth
 
 However, subcharts by nature are nested filesystems, which means they get rendered first. So the finding is that if we want the `z_compatibility_helpers.tpl` file to be rendered first, it must be in a deeply nested folder.
 
+## How can I further investigate helm to play around with this?
+
+I have an integration test on a fork of helm located here:
+https://github.com/jessesimpson36/helm/commit/69866638a5be6b4efc4ab070dc13611421cd74bf
 
 
